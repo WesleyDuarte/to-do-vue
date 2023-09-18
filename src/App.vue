@@ -25,7 +25,7 @@ import { reactive } from 'vue';
       finalizada: false
     }
       estado.tarefas.push(tarefaNova);
-      estado.tarefaTemporaria = ""
+      estado.tarefaTemporaria = "";
   }
 
   const getTarefasPendentes = () => {
